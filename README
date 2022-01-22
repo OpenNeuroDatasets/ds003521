@@ -1,13 +1,19 @@
-Friday Night Lights Study2. Participants (n=35) watched the first episode of Friday Night Lights while undergoing fMRI.
+# Overview
 
 This dataset is Study2 from:
 
 Chang, L. J., Jolly, E., Cheong, J. H., Rapuano, K. M., Greenstein, N., Chen, P. H. A., & Manning, J. R. (2021). Endogenous variation in ventromedial prefrontal cortex state dynamics during naturalistic viewing reflects affective experience. *Science Advances, 7(17), eabf7129*.
 
-We are also sharing additional data from this paper.
-- Study 1 (n=13) [fMRI data](https://openneuro.org/datasets/ds003524) viewing FNL episode 1 & 2.
-- Study 3 (n=20) Face Expression Data - Available on [OSF](https://osf.io/f9gyd/). We are only sharing extracted Action Unit Values. We do not have permission to share raw video data.
-- Study 4 (n=192) Emotion Ratings - Available on [OSF](https://osf.io/f9gyd/). Rating data was collected on Amazon Mechanical Turk using a custom Flask [web application](https://github.com/cosanlab/moth_app) built by Nathan Greenstein.
+Participants (n=35) watched the first episode of Friday Night Lights while undergoing fMRI.
+
+
+We are also sharing additional data from this paper:
+
+ - Study 1 (n=13) [fMRI data](https://openneuro.org/datasets/ds003524) viewing FNL episode 1 & 2.
+
+ - Study 3 (n=20) Face Expression Data - Available on [OSF](https://osf.io/f9gyd/). We are only sharing extracted Action Unit Values. We do not have permission to share raw video data.
+
+ - Study 4 (n=192) Emotion Ratings - Available on [OSF](https://osf.io/f9gyd/). Rating data was collected on Amazon Mechanical Turk using a custom Flask [web application](https://github.com/cosanlab/moth_app) built by Nathan Greenstein.
 
 # Preprocessing
 Results included in this openneuro respository come from preprocessing performed using fMRIPrep 20.2.1 (Esteban, Markiewicz, et al. (2018); Esteban, Blair, et al. (2018); RRID:SCR_016216), which is based on Nipype 1.5.1 (Gorgolewski et al. (2011); Gorgolewski et al. (2018); RRID:SCR_002502). See ```derivatives/code/fmriprep.sh``` for script used to run preprocessing.
